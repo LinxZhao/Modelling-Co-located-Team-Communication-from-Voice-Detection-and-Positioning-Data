@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Linxuan"
+  given-names: "Zhao"
+  orcid: "https://orcid.org/0000-0001-5564-0185"
+title: "Modelling-Co-located-Team-Communication-from-Voice-Detection-and-Positioning-Data"
+version: 
+doi: 
+date-released: 
+url: "https://github.com/LinxZhao/Modelling-Co-located-Team-Communication-from-Voice-Detection-and-Positioning-Data"
