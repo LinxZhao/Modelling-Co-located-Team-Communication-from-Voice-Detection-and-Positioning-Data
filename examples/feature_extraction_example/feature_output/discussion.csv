@@ -1,0 +1,3 @@
+,device_id,session_name,speaking_time_duration,overlapped_count,overlapped_duration,connected_count,connected_duration,to_other_count,to_other_duration
+0,27261,feature_extraction_discussion,21.479999999999997,6,11.700000000000003,2,14.94,0,0
+1,27226,feature_extraction_discussion,41.88,5,11.700000000000003,3,38.040000000000006,0,0

@@ -1,0 +1,29 @@
+[
+    {
+        "mission_type": "do_vad",
+        "audio_path": "examples/VAD_example/test_audio_1.wav", 
+        "output_path": "examples/VAD_example/example_output/segment_output_format.csv",
+        "session_name": "test_1",
+        "word_thres": 1, 
+        "thread_number": 1,
+        "time_format": "segments"    
+    },
+    {
+        "mission_type": "do_vad",
+        "audio_path": "examples/VAD_example/test_audio_1.wav", 
+        "output_path": "examples/VAD_example/example_output/hms_output_format.csv",
+        "session_name": "test_1",
+        "word_thres": 1, 
+        "thread_number": 1,
+        "time_format": "hms"    
+    },
+    {
+        "mission_type": "do_vad",
+        "audio_path": "examples/VAD_example/test_audio_1.wav", 
+        "output_path": "examples/VAD_example/example_output/seconds_output_format.csv",
+        "session_name": "test_1",
+        "word_thres": 1, 
+        "thread_number": 1,
+        "time_format": "seconds"    
+    }
+]

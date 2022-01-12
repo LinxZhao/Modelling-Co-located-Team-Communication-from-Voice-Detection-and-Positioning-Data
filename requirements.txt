@@ -1,0 +1,7 @@
+pandas>=1.0.3
+numpy>=1.21.2
+scipy>=1.4.1
+webrtcvad>=2.0.10
+pydub>=0.25.1
+tqdm>=4.45.0
+SpeechRecognition>=3.8.1

@@ -1,0 +1,44 @@
+[
+    {
+        "mission_type": "interpolate_pozyx",
+        "pozyx_path": "examples/pozyx_example/pozyx_data.json",
+        "pozyx_device_id": [
+            27261,
+            27160,
+            27226,
+            27263
+        ],
+        "output_path": [
+            "examples/pozyx_example/interpolated_27261.csv",
+            "examples/pozyx_example/interpolated_27160.csv",
+            "examples/pozyx_example/interpolated_27226.csv",
+            "examples/pozyx_example/interpolated_27263.csv"  
+        ],
+        "session_name": "interpolation"
+    },
+    {
+        "mission_type": "f_formation",
+        "pozyx_device_id": [
+            27261,
+            27160,
+            27226,
+            27263
+        ],
+        "interpolated_pozyx_path": [
+            "examples/pozyx_example/interpolated_27261.csv",
+            "examples/pozyx_example/interpolated_27160.csv",
+            "examples/pozyx_example/interpolated_27226.csv",
+            "examples/pozyx_example/interpolated_27263.csv"  
+        ],
+        "output_path": [
+            "examples/pozyx_example/formation_27261.csv",
+            "examples/pozyx_example/formation_27160.csv",
+            "examples/pozyx_example/formation_27226.csv",
+            "examples/pozyx_example/formation_27263.csv"
+        ],
+        "fov_threshold": 180,
+        "distance_threshold": 2000,
+        "session_name": "f-formation",
+        "correction": 1
+    }
+]

@@ -1,0 +1,87 @@
+[
+    {
+        "mission_type": "feature_extraction",
+        "pozyx_device_id": [
+            27261,
+            27226
+        ],
+        "audio_data_path": [
+            "examples/feature_extraction_example/separate/separate_27261.csv",
+            "examples/feature_extraction_example/separate/separate_27226.csv"
+
+        ],
+        "formation_path": [
+            "examples/feature_extraction_example/f_formation_data/formation_27261.csv",
+            "examples/feature_extraction_example/f_formation_data/formation_27226.csv"
+        ],
+        "feature":[
+            "speaking_time",
+            "overlapped",
+            "connected",
+            "to_other"
+        ],
+        "output_path": "examples/feature_extraction_example/feature_output/separate.csv",
+        "audio_start_timestamp": 1630387900.504,
+        "segment_merging_threshold": 1.5,
+        "connected_threshold": 3,
+        "session_name": "feature_extraction_separate"
+    },
+    {
+        "mission_type": "feature_extraction",
+        "pozyx_device_id": [
+            27261,
+            27226
+        ],
+        "audio_data_path": [
+            "examples/feature_extraction_example/discussion/discussion_27261.csv",
+            "examples/feature_extraction_example/discussion/discussion_27226.csv"
+
+        ],
+        "formation_path": [
+            "examples/feature_extraction_example/f_formation_data/formation_27261.csv",
+            "examples/feature_extraction_example/f_formation_data/formation_27226.csv"
+        ],
+        "feature":[
+            "speaking_time",
+            "overlapped",
+            "connected",
+            "to_other"
+        ],
+        "output_path": "examples/feature_extraction_example/feature_output/discussion.csv",
+        "audio_start_timestamp": 1630387822.504,
+        "segment_merging_threshold": 1.5,
+        "connected_threshold": 3,
+        "session_name": "feature_extraction_discussion"
+    },
+   
+    {
+        "mission_type": "feature_extraction",
+        "pozyx_device_id": [
+            27261,
+            27226,
+            27263
+        ],
+        "audio_data_path": [
+            "examples/feature_extraction_example/group_handover/handover_27261.csv",
+            "examples/feature_extraction_example/group_handover/handover_27226.csv",
+            "examples/feature_extraction_example/group_handover/handover_27263.csv"
+
+        ],
+        "formation_path": [
+            "examples/feature_extraction_example/f_formation_data/formation_27261.csv",
+            "examples/feature_extraction_example/f_formation_data/formation_27226.csv",
+            "examples/feature_extraction_example/f_formation_data/formation_27263.csv"
+        ],
+        "feature":[
+            "speaking_time",
+            "overlapped",
+            "connected",
+            "to_other"
+        ],
+        "output_path": "examples/feature_extraction_example/feature_output/group_handover.csv",
+        "audio_start_timestamp": 1630388328.504,
+        "segment_merging_threshold": 1.5,
+        "connected_threshold": 3,
+        "session_name": "feature_extraction_group_handover"
+    }
+]
