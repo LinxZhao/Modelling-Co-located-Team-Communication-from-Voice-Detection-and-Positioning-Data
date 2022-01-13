@@ -48,7 +48,6 @@ def _main(argv):
             logging.warning("unexpected mission type, received '{}' in number {} mission (start from 0)".format(
                 a_misson["mission_type"], i))
             error_mission_list.append((i, a_misson["mission_type"]))
-
     logging.info("all mission finished")
     for an_error in error_mission_list:
         logging.warning("mission number {} is not a supported mission, received '{}'".format(an_error[0], an_error[1]))
