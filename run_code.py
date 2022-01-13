@@ -18,7 +18,9 @@ from webrtc_with_CMUSphinx.voice_activity_detection import vad_on_unlabelled_dat
 def _main(argv):
     logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
     error_mission_list = []
-
+    if len(argv) == 0:
+        logging.error("no json file input")
+        return
     with open(argv[0]) as f:
         mission_json = json.load(f)
 
